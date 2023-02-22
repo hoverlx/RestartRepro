@@ -64,7 +64,7 @@
 		"subnetName": "Subnet",
 		"subnetPrefix": "10.0.0.0/24",
 		"subnetRef": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('subnetName'))]",
-		"vmName": "vmCrash",
+		"vmName": "WinVMRestart",
 		"virtualNetworkName": "MyVNET",
 		"publicIPAddressName": "myPublicIP",
 		"networkSecurityGroupName": "default-NSG"
@@ -234,7 +234,7 @@
 							]
 						},
 						"protectedSettings": {
-							"commandToExecute": "powershell.exe WinVMRestart.ps1"
+							"commandToExecute": "powershell.exe .\\WinVMRestart.ps1"
 						}
 					}
 				}
