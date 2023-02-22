@@ -229,8 +229,7 @@
     						"typeHandlerVersion": "2.1",
     						"autoUpgradeMinorVersion": true,
 						"protectedSettings": {
-							"fileUris":"https://raw.githubusercontent.com/hoverlx/RestartRepro/main/Scripts/LinuxVMRestart.sh",
-							"commandToExecute": "sh LinuxVMRestart.sh"
+							"script": "ZWNobyAicmVib290IiB8IGF0IG5vdyArIDEgbWludXRlcw"
 						}
 					}
 				}
